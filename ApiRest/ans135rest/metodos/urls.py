@@ -2,5 +2,6 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-	path('unidad2/grafico/<str:expr>/', views.metodo_grafico, name='metodo_grafico'),
+	path('unidad1/sin/', views.sinx, name='Sinx'),
+	path('unidad2/biseccion/', views.biseccion, name='Biseccion'),
 ]

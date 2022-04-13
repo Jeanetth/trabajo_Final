@@ -1,5 +1,4 @@
 Clases:
-Grafico.py
 Biseccion.py
 FalsaPosicion.py
 PuntoFijo.py
