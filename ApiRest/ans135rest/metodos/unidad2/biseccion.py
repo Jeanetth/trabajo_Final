@@ -45,7 +45,7 @@ class Biseccion:
             }
             return resultado
         else:
-            return -999
+            return False
 
 
 
