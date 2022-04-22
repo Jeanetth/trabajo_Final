@@ -1,5 +1,5 @@
 import sympy as sp
-class falsa_posicion:
+class Falsa_posicion:
     def __init__(self, funct, limits, cifras):
         self.funct = sp.sympify(funct.replace("^","**"))
         self.lim_inf = float(limits[0])
@@ -22,7 +22,7 @@ class falsa_posicion:
             while Ea > Ess : 
                 aproximacionAnterior  = xr
 
-                xr = float(self.lim_inf - (self.eval(self.lim_inf)*(self.lim_inf-self.lim_sup))/((self.eval(self.lim_inf))-self.eval(self.lim_sup)))#Revisar
+                xr = float(self.lim_inf - (self.eval(self.lim_inf)*(self.lim_inf-self.lim_sup))/(self.eval(self.lim_inf)-self.eval(self.lim_sup)))
                 self.aproximaciones.append(xr)
                 fx1 = self.eval(self.lim_inf)
                 fxr = self.eval(xr)
