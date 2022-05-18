@@ -39,7 +39,4 @@ class Arctgx:
 		}
 
 		return resultado
-		
-#prueba: Borrar antes de enviar 
-#prueba = Arctgx(3,2)
-#print(prueba.arctgx())
+
